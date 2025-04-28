@@ -12,8 +12,8 @@ yesBtn.addEventListener("click", () => {
 
 noBtn.addEventListener("mouseover", () => {
   const noBtnRect = noBtn.getBoundingClientRect();
-  const maxX = window.innerWidth - no yahahaBtnRect.width;
-  const maxY = window.innerHeight - no yahahaBtnRect.height;
+  const maxX = window.innerWidth - noBtnRect.width;
+  const maxY = window.innerHeight - noBtnRect.height;
 
   const randomX = Math.floor(Math.random() * maxX);
   const randomY = Math.floor(Math.random() * maxY);
